@@ -39,18 +39,22 @@ header {
   z-index: 100;
 }
 
+header .title span {
+  font-style: italic;
+  font-weight: 900;
+  transition: 0.3s;
+}
+
+header .description {
+  font-size: 1.2rem;
+}
+
 .move-header {
   position: fixed;
   top: 0;
   font-size: 1.7rem;
   background-color: rgb(235, 129, 208);
   transition: 0.7s;
-}
-
-.title span {
-  font-style: italic;
-  font-weight: 900;
-  transition: 0.3s;
 }
 
 .description p {
