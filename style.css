@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:ital,wght@0,500;0,700;0,900;1,500;1,700;1,900&display=swap');
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  outline: none;
+}
+
+body,
+html {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
+}
+
+.bkgd {
+  background-image: url('Rumamba_Mock_Up_Web.jpg');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  font-family: 'Roboto', sans-serif;
+  padding: 10px;
+  color: white;
+  font-weight: 500;
+  font-size: 2.4rem;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  top: 20%;
+  margin: auto;
+  transition: 0.5s;
+  z-index: 100;
+}
+
+.move-header {
+  position: fixed;
+  top: 0;
+  font-size: 1.7rem;
+  background-color: rgb(235, 129, 208);
+  transition: 0.7s;
+}
+
+.title span {
+  font-style: italic;
+  font-weight: 900;
+  transition: 0.3s;
+}
+
+.description p {
+  padding: 20px;
+  font-size: 3rem;
+}
+
+.description p span {
+  color: rgb(235, 129, 208);
+}
+
+article {
+  display: flex;
+}
+
+article .image {
+  flex: 1;
+}
+
+article .image img {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+article .description {
+  flex: 1;
+}
+
+article .description:nth-child(odd) {
+  background-color: rgb(241, 203, 232);
+}
+
+article .description:nth-child(even) {
+  background-color: rgb(203, 207, 241);
+}
+
+.align-left {
+  float: left;
+  margin-right: 20px;
+}
+
+.align-right {
+  float: right;
+  margin-left: 20px;
+}
+
+.slide-in {
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.align-left.slide-in {
+  transform: translateX(-30%) scale(0.95);
+}
+
+.align-right.slide-in {
+  transform: translateX(30%) scale(0.95);
+}
+
+.slide-in.active {
+  opacity: 1;
+  transform: translateX(0%) scale(1);
+}
+
+footer {
+  height: 300px;
+  background-color: rgb(235, 129, 208);
+}
