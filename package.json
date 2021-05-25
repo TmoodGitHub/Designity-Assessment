@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/TmoodGitHub/Designity-Assessment#readme",
   "dependencies": {
+    "animate.css": "^4.1.1",
     "express": "^4.17.1"
   },
   "devDependencies": {
