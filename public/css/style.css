@@ -17,7 +17,7 @@ html {
 }
 
 .bkgd {
-  background-image: url('Rumamba_Mock_Up_Web.jpg');
+  background-image: url('../imgs/Rumamba_Mock_Up_Web.jpg');
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;

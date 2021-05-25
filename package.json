@@ -1,0 +1,25 @@
+{
+  "name": "tmahmoud-designity-assessment",
+  "version": "1.0.0",
+  "description": "Educate customer on the benefits of Rumamba",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TmoodGitHub/Designity-Assessment.git"
+  },
+  "author": "Tamer Mahmoud",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/TmoodGitHub/Designity-Assessment/issues"
+  },
+  "homepage": "https://github.com/TmoodGitHub/Designity-Assessment#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
