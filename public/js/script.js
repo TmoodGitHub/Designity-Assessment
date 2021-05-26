@@ -63,6 +63,7 @@ document.addEventListener('click', (e) => {
   const concentrationContent = document.querySelector('#concentrationContent');
   const saltyContent = document.querySelector('#saltyContent');
   const workContent = document.querySelector('#workContent');
+
   console.log(e.target.id);
   if (e.target.id === 'concentration') {
     slideToggle(concentrationContent);
@@ -75,7 +76,7 @@ document.addEventListener('click', (e) => {
   }
 });
 
-const slideToggle = (container) => {
+const slideToggle = (container, idContainer) => {
   if (!container.classList.contains('active')) {
     container.classList.add('active');
     container.style.height = 'auto';
